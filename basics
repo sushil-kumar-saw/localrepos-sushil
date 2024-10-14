@@ -1,0 +1,56 @@
+remote :- files on github
+local:- eg our laptop or computer
+
+# cd:- change directory (when we want to go to any file )
+    eg:- cd <filename>
+         cd ..  (exit from the current directory)
+
+# mkdir:- make new directory 
+      eg:- mkdir <filename>
+
+
+# ls :- list file it show all file
+# ls -a :- hidden file also list
+
+# status:- current status of project
+   eg:- git status
+
+# clone:- cloning a repository on your local machine
+  eg:- git clone <project link>
+
+# after modyfing any file:-
+        then first we have to add then we have to commit
+
+# there will be 4 type of status for file in the git
+
+# untracked:- new file that git doesn't yet track. when we add new file it will be untracked
+
+# modified:- when we make changes in file
+
+# staged:- file is ready to be commited.(first we add(it is a step don't confuse with creating a file)the untracked and modified file then it is ready for commit this status of is called staged)
+
+# unmodified:- unchanged file
+
+##################################################################
+
+# add:- adds new or changed files in your working directory to the git staging area
+        command:-  git add <file name>
+                    git add .    (it will add all file)
+
+# commit :- it is the record of change
+    command:- git commit -m "some message"
+
+* note:- file name is case sensetive
+
+# push :- to upload local(our system) repo content to remote (git hub)repo
+        command:- git push origin main
+
+# origin:- the copy of our file in github that file name is origin (we can take different name)
+# main:-  branch of the origin 
+
+###############################################################################
+
+# init :-  used to create a new git repo (first we create a directory using mkdir then make it as git repo using init)
+  command:- git init
+
+
